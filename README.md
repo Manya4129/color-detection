@@ -8,3 +8,4 @@ Using a CSV file which contains five columns colour, name of the colour, hexadec
 Our program first read the image using the OpenCV function imread() and then resizes it properly to be able to fit within the window. Created a named window which pops up when the image is read. Connected the mouse event through setMouseCallback() function which uses a function whose main purpose is to take the location of the mouse pointer and output the three colour channel values. Colour values are compared with the RGB values of CSV file and those values with a minimum absolute difference are picked as our colour and then we draw a rectangle within the image to show up the RGB values and the associated colour with the value.
 
 #### Youtube Video Link - https://youtu.be/Or2KTJPC8zM
+#### Linked In post - https://www.linkedin.com/posts/arkya-bagchi-11018461_griptask-gripnov20-thesparksfoundation-activity-6735869991574368256-9HLz
